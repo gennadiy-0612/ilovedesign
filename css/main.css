@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
 .no-js {
     scroll-behavior: smooth;
@@ -28,6 +28,7 @@ body, .tittle, h1 {
     font-size: 58px;
     padding-top: 7vh;
     padding-bottom: 1.4vh;
+    text-align: center;
 }
 
 .slogan {
@@ -91,12 +92,24 @@ body, .tittle, h1 {
 
 .three {
     display: flex;
-    max-width: 670px;
+    max-width: 682px;
     margin: auto;
     padding: 0 20px;
+    flex-wrap: wrap;
+}
+
+.three__child {
+    padding: 0 3px;
+    flex: 1 1 210px;
 }
 
 .h3 {
     margin: 0;
     font-size: 13px;
+}
+
+.p {
+    font-size: 13px;
+    line-height: 22px;
+    font-weight: 400;
 }
