@@ -1,17 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700;900&display=swap');
+
 .no-js {
     scroll-behavior: smooth;
 }
 
-.no-js, body, .screen1 {
+.no-js, body {
     height: 100%;
     width: 100%;
 }
 
-body, .tittle {
+body, .tittle, h1 {
     margin: 0;
 }
 
+.mainLink {
+    display: flex;
+    flex: 1 1 50px;
+    padding-top: 8vh;
+}
+
+.logo {
+    width: 96px;
+    height: 94px;
+}
+
+.tittle {
+    font-size: 58px;
+    padding-top: 7vh;
+    padding-bottom: 1.4vh;
+}
+
+.slogan {
+    max-width: 316px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 3.3vh;
+    letter-spacing: -0.4px;
+}
+
+.colorWhite {
+    color: #ffffff;
+}
+
+.fontRoboto {
+    font-family: "Roboto", 'Segoe UI', Tahoma, sans-serif;
+}
+
+.screen1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #23232e;
+    margin: 48px 42px;
+    width: calc(100% - 90px);
+    height: calc(100% - 90px);
+}
+
+.chevron {
+    flex: 1 1 auto;
+    display: flex;
+    padding-bottom: 2.6vw;
+}
+
 .chevron-down {
-    height: 20px;
-    width: 20px;
+    height: 32px;
+    width: 32px;
+    align-self: end;
+}
+
+.screen2 {
+    padding-top: 32px;
+}
+
+.about {
+    max-width: 600px;
+    margin: 0 auto 34px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 29px;
+    text-align: center;
+}
+
+.do {
+    text-align: center;
+    margin-top: 68px;
+    font-size: 60px;
+}
+
+.three {
+    display: flex;
+    max-width: 670px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.h3 {
+    margin: 0;
+    font-size: 13px;
 }
