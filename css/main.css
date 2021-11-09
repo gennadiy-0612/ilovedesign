@@ -72,7 +72,7 @@ body, .tittle, h1 {
 }
 
 .screen2 {
-    padding: 32px;
+    padding-top: 32px;
 }
 
 .about {
@@ -82,6 +82,7 @@ body, .tittle, h1 {
     font-weight: 500;
     line-height: 29px;
     text-align: center;
+    padding: 0 32px;
 }
 
 .do {
